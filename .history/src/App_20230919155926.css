@@ -1,0 +1,37 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  background: linear-gradient(to right, #ffead7, #FF8C00);
+  height: 50px;
+  z-index: 10000;
+
+ }
+
+ .nav-list{
+  
+  list-style: none;
+padding: 0;
+  padding-bottom: 10px; /* Remove any default padding */
+  margin: 0;
+  transform: translate(15px,60px);
+  width: 55%; 
+  background: linear-gradient( #ffffff, #ca8c3f);
+}
+
+.list-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Vertically center-align the items */
+  text-align: center; /* Horizontally center-align the text within li elements */
+}
+
+.nav-button{
+  margin-right: 20px;
+  transform: translate(1rem,3.5rem);
+  background-color: transparent;
+}

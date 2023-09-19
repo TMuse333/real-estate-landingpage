@@ -1,0 +1,13 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  background: linear-gradient(to right, #F4A460, #FF8C00);
+  height: 50px;
+  z-index: 10000;
+ 
+ 
+ }
